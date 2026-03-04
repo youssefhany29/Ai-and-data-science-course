@@ -1,0 +1,64 @@
+What is the differences between float ,double and decimal?
+
+1) Float
+🔹 What it is
+    •  A decimal number with low precision.
+    •  Uses scientific notation.
+    •  Takes 4 bytes.
+🔹 Pros
+    •  Very fast.
+    •  Uses small memory.
+🔹 Cons
+    •  Not precise → rounding errors happen.
+🔹 Used for
+    •  Games
+    •  Graphics
+    •  Fast calculations where precision doesn’t matter
+
+2) Double
+🔹 What it is
+    •  A more accurate version of float.
+    •  Takes 8 bytes.
+    •  Much higher precision.
+🔹 Pros
+    •  More accurate
+    •  Fewer rounding problems
+🔹 Cons
+    •  Slightly slower
+    •  Uses more memory
+🔹 Used for
+    •  Scientific math
+    •  Complex calculations
+    •  Anything needing good precision
+
+3) Decimal
+🔹 What it is
+    •  A number type made for money and financial values.
+    •  Takes 16 bytes.
+    •  Very high precision because it stores numbers in base-10, like humans, not base-2.
+🔹 Pros
+    •  Very accurate
+    •  No rounding issues with money
+🔹 Cons
+    •  Slower than float and double
+    •  Uses the most memory
+🔹 Used for
+    •  Prices
+    •  Banking systems
+    •  Billing and invoices
+
+1) Precision
+    •  decimal > double > float
+
+2) Speed
+    •  float > double > decimal
+
+3) Memory Size
+    •  float → 4 bytes
+    •  double → 8 bytes
+    •  decimal → 16 bytes
+
+4) Best Use
+    •  float → fast, low precision
+    •  double → balanced, general math
+    •  decimal → money, high accuracy
