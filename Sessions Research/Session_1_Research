@@ -1,0 +1,66 @@
+RESEARCH – TASK 1
+Types of programming languages 
+•	Low level, High level
+•	Interpreted, Compiled
+•	Programming, Scripted
+•	Open source, not open source
+•	Support OOP, not supporting OOP
+
+
+1)	Low-level vs High-level
+  a)	Low-level
+    a.	Easy to understand for machines, but less human readable.
+    b.	Not Portable
+    (Meaning: Tied to specific CPU hardware so for example:
+      i.	Assembly for intel works only on intel processors
+      ii.	Assembly for AMD works only on AMD processors) 
+    c.	Higher execution speed
+    d.	Uses binary code
+    e.	EX: Assembly Language
+  b)	High-level
+    a.	Human readable and easier to understand and use
+    b.	Portable
+    (Meaning: Languages like python, Java are portable because:
+      i.	 they don’t talk directly to hardware.
+      ii.  They depend on compilers/Interpreters (MENTIONED DOWN)
+           to translate for different machines
+      iii. so one python or Java files can run on many types of computers
+    c.	Lower execution speed
+    d.	Uses syntax and semantics
+    e.	Examples: python, c++, Java
+
+2)	Interpreted vs compiler 
+  a)	 Interpreted
+    a.	Run through a program line by line and execute each command
+    b.	Interpreted languages tend to be more flexible and often offer features like dynamic typing and smaller program size
+  b)	Compiled
+    a.	Compiled languages are converted directly into machine code that the processor can execute
+    b.	They tend to be faster and more efficient to execute than interpreted languages
+
+3)	Scripting vs Programming
+  a)	Scripting
+    a.	Compiled languages are converted directly into machine code that the processor can execute
+    b.	They tend to be faster and more efficient to execute than interpreted languages
+  b)	Programming
+    a.	Programming languages are the foundation of software development, allowing developers to create:
+      i.	 Websites
+      ii.	 Applications
+      iii. Systems
+          through computer understandable instructions.
+
+4)	Open-Source vs Closed-Source Software
+  a)	Open Source
+    a.	computer software whose source is open means the general public can access and use it. The source code of open-source software is public. It uses the code freely available on the Internet
+      i.	EX: Firefox, OpenOffice, Gimp, Alfresco, PHP
+  b)	Closed Source
+    a.	Closed source software refers to computer software whose source code is closed means the public is not given access to the source code.
+      i.	EX: Microsoft Windows, WinRAR, mac OS, Adobe Flash Player.
+
+5)	Support OOP vs Not Supporting OOP
+    First OOP is a programming paradigm based on the concept of objects, which contain: Attributes (data) Methods (functions) It makes code: More organized Reusable Easier to maintain
+  a)	Languages That Support OOP
+    a.	Python
+    b.	Java
+  b)	Languages That Do NOT Support OOP
+    a.	C
+    b.	Assembly
